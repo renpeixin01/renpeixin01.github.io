@@ -1,0 +1,57 @@
+baseURL: "https://renpeixin01.github.io/"
+# languageCode: "zh-cn"
+languageCode: "en"
+title: "Peixin Ren's Blog"
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+
+# 启用 LaTeX 数学公式（博士生必备）
+params:
+  math: true
+  defaultTheme: auto
+  # 首页个人信息配置
+  profileMode:
+    enabled: true
+    title: "Hi, I'm Peixin Ren"
+    subtitle: "Ph.D. Candidate | Researcher"
+    imageUrl: "/images/avator.jpeg" # 替换为你的头像链接
+    bio: "这里记录我的科研探索(Knowledge)与生活瞬间(Life)。"
+    buttons:
+      - name: My Publications
+        url: "/publications"
+      - name: Research Notes
+        url: "/knowledge"
+  
+  # 社交链接
+  socialIcons:
+    - name: github
+      url: "https://github.com/yourname"
+    - name: email
+      url: "mailto:yourname@example.com"
+
+# 顶部导航栏配置
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: life
+      name: Life
+      url: /life/
+      weight: 20
+    - identifier: knowledge
+      name: Knowledge
+      url: /knowledge/
+      weight: 30
+    - identifier: publications
+      name: Publications
+      url: /publications/
+      weight: 40
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 50

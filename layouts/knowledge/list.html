@@ -1,0 +1,70 @@
+{{- define "main" }}
+
+{{- if not .IsHome | and .Title }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+{{- end }}
+
+{{- if .Content }}
+<div class="post-content">
+  {{- partial "anchored_headings.html" .Content -}}
+</div>
+{{- end }}
+
+<div class="knowledge-tags-section" style="margin: 20px 0 40px 0; padding: 20px; background: var(--entry); border-radius: var(--radius);">
+    <h3 style="margin-top: 0; margin-bottom: 15px;">📂 Browse by Topics</h3>
+    <ul class="terms-tags" style="padding: 0; list-style: none;">
+        {{ range $key, $value := .Site.Taxonomies.tags }}
+        <li style="display: inline-block; margin: 5px;">
+            <a href="{{ "tags/" | absLangURL }}{{ $key | urlize }}" 
+               style="display: block; background: var(--tertiary); padding: 8px 14px; border-radius: 5px; color: var(--primary); text-decoration: none; transition: transform 0.1s;">
+                {{ $key }} 
+                <sup style="opacity: 0.7;">{{ .Count }}</sup>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{- $pages := union .RegularPages .Sections }}
+{{- $paginator := .Paginate $pages }}
+
+{{- range $paginator.Pages }}
+<article class="post-entry">
+  {{- partial "cover.html" (dict "cxt" . "IsHome" true) }}
+  <header class="entry-header">
+    <h2>
+      {{- .Title }}
+      {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+  </div>
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" . -}}
+    </footer>
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
+{{- end }}
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« {{ i18n "prev_page" }}</a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
+
+{{- end }}

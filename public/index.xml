@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Peixin Ren&#39;s Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Peixin Ren&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 06 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Post-Quantum Cryptography</title>
+      <link>http://localhost:1313/knowledge/how_to_study/</link>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/knowledge/how_to_study/</guid>
+      <description>A brief overview of lattice-based cryptography&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/publications/</link>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/</guid>
+      <description>&lt;h2 id=&#34;preprints&#34;&gt;Preprints&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Muse: A Strong aPAKE Protocol from Lattices&lt;/strong&gt;
+&lt;em&gt;Peixin Ren&lt;/em&gt;, Supervisor Name, Collaborator Name.
+&lt;em&gt;Submitted to Crypto 2025&lt;/em&gt;.
+&lt;a href=&#34;#&#34;&gt;[PDF]&lt;/a&gt; &lt;a href=&#34;#&#34;&gt;[ePrint]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2025&#34;&gt;2025&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Efficient Lattice-Based Cryptography&lt;/strong&gt;
+Author A, &lt;strong&gt;Peixin Ren&lt;/strong&gt;, Author C.
+&lt;em&gt;IEEE Symposium on Security and Privacy (S&amp;amp;P)&lt;/em&gt;, 2025.
+&lt;a href=&#34;#&#34;&gt;[PDF]&lt;/a&gt; &lt;a href=&#34;#&#34;&gt;[Code]&lt;/a&gt; &lt;a href=&#34;#&#34;&gt;[Slides]&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Another Paper Title&lt;/strong&gt;
+&lt;strong&gt;Peixin Ren&lt;/strong&gt;, Co-author.
+&lt;em&gt;ASIACRYPT 2025&lt;/em&gt;.
+&lt;a href=&#34;#&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2024&#34;&gt;2024&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;My First Paper&lt;/strong&gt;
+&lt;strong&gt;Peixin Ren&lt;/strong&gt;.
+&lt;em&gt;Journal of Cryptology&lt;/em&gt;, Vol 1.
+&lt;a href=&#34;#&#34;&gt;[PDF]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;biography&#34;&gt;Biography&lt;/h2&gt;
+&lt;p&gt;I am a Ph.D. student in the Department of Computer Science at &lt;strong&gt;[University Name]&lt;/strong&gt;, advised by Prof. [Advisor Name].&lt;/p&gt;
+&lt;p&gt;My research interests lie in &lt;strong&gt;Post-Quantum Cryptography&lt;/strong&gt;, specifically focusing on &lt;strong&gt;Password-Authenticated Key Exchange (PAKE)&lt;/strong&gt; protocols and Lattice-based cryptography.&lt;/p&gt;
+&lt;p&gt;Before my Ph.D., I received my B.S. degree from [Undergrad University].&lt;/p&gt;
+&lt;h2 id=&#34;news&#34;&gt;News&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dec 2025&lt;/strong&gt;: I created this blog!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nov 2025&lt;/strong&gt;: Our paper on aPAKE was submitted.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ph.D. in Computer Science&lt;/strong&gt;, [University Name] (2023 - Present)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;B.S. in Mathematics&lt;/strong&gt;, [University Name] (2019 - 2023)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: your.name [at] university.edu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Office&lt;/strong&gt;: Room 101, Building A&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

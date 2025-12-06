@@ -1,0 +1,22 @@
+/* Knowledge 页面标签云的样式增强 */
+.knowledge-tags-section ul.terms-tags li a:hover {
+    background: var(--primary) !important; /* 鼠标悬停变主色 */
+    color: var(--theme) !important;       /* 文字变背景色 */
+    transform: translateY(-2px);          /* 微微上浮 */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+/* 优化 Publications 页面的列表显示 */
+.post-content ul {
+    padding-left: 1.2rem;
+}
+
+.post-content li {
+    margin-bottom: 12px; /* 增加条目间距，更易读 */
+}
+
+/* 让年份标题更突出 */
+.post-content h2 {
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
